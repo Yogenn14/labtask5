@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JTMK</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="style.css" >
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.5/jquery.mobile.min.css" />
+        
+        
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        
+  <link rel="stylesheet" href="/resources/demos/style.css">
+        <link rel = "stylesheet" href = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+      <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script src = "https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+      
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+ 
+    </head>
+  
+    <body>
+       
+        <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="tljQ5bxB"></script>
+
+      
+        <div data-role="page" style="background-color: black;">
+        <div data-role="header" data-theme="b" class="h" style="background-color: goldenrod;">
+            <h1 style="font-size: 55px; position: relative; top: -45%; color: black;">JTMK</h1>
+            <a href="#leftpanel3" data-role="button" data-inline="true" data-mini="true" style="background-color: goldenrod; border:0px;  width: 10%; height: 60px;
+             position: relative; top: -180%; left: -1%;"
+             class="ui-button ui-shadow ui-corner-all ui-button-inline ui-mini ui-widget ui-button-inherit" role="button">
+            <img src="navbar.png" style="width:80%; height: 60px;"></a>
+        
+        </div>
+
+        <div role="main" class="ui-content">
+            <h1 style="display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            font-family: Arial, sans-serif;
+            color: white;
+            font-size: 60px;">Events@JTMK</h1>
+            
+            <center>
+            
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/l4N2rmRbVFQ" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/u8XnfWS3ZFM" title="YouTube video player" frameborder="0"
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <iframe width="560" height="315" src="https://www.youtube.com/embed/xhk58Q5ryVM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+              clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="fb-page" data-href="https://www.facebook.com/jtmkpoliteknikungkuomar" data-tabs="timeline" data-width="500px" data-height="800px" 
+            data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"
+             style="display: flex; justify-content: center; align-items: center; position: relative; ">
+            <blockquote cite="https://www.facebook.com/jtmkpoliteknikungkuomar" class="fb-xfbml-parse-ignore">
+                <a href="https://www.facebook.com/jtmkpoliteknikungkuomar">Jabatan Teknologi Maklumat &amp; Komunikasi, PUO</a></blockquote></div>
+                </center>
+            <div data-role="panel" id="leftpanel3" data-position="left" data-display="overlay" data-dismissible="true" data-theme="a" class="ui-panel ui-panel-position-left ui-panel-display-overlay ui-body-a ui-panel-animate ui-panel-open" bis_skin_checked="1">
+
+                <div class="ui-panel-inner" bis_skin_checked="1"><div class="panel-content" bis_skin_checked="1">
+                    <a href=""><h1>Home</h1></a>
+                    <a href="ct.html" data-transition="flip" id="c" ><h1>Courses & Tracks</h1></a>
+                    <a href="event.html" data-transition="flip" id="e"><h1>Events</h1></a>
+                    <a href="aboutus.html" data-transition="flip" id="a"><h1>About Us</h1></a>
+                    <a href="#demo-links" data-rel="close" data-role="button" data-theme="a" data-icon="delete" data-inline="true" class="ui-button ui-shadow ui-corner-all ui-button-inline ui-widget ui-button-a" role="button"><span class="ui-button-icon ui-icon delete">
+
+                    </span><span class="ui-button-icon-space"> </span>Close panel</a>
+                    
+                    </div>
+                    </div>
+            </div>
+            </div>
+        
+            <div data-role="footer" data-position="fixed" data-theme="b">
+                <div><h3 style="color: white; text-align: center;">JTMK@ Politeknik Ungku Omar</h3></div>
+                  
+              </div>
+              </div>
+
+              <script>
+                $(document).ready(function(){   
+                $("#c").click(function () {     
+                document.location.href = "./ct.html"; 
+      });
+      });
+      
+                $(document).ready(function(){   
+                $("#e").click(function () {     
+                  document.location.href = "./event.html";
+                });
+                });
+      
+                $(document).ready(function(){   
+                $("#a").click(function () {     
+                  document.location.href = "./aboutus.html";
+                });
+                });
+      
+              </script>
+
+    
+        
+    </body>
+    
+    </html>
